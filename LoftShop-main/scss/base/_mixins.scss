@@ -1,0 +1,19 @@
+@mixin abs {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+@mixin hover {
+  @media (hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+
+  @media (hover: none) {
+    &:active {
+      @content;
+    }
+  }
+}

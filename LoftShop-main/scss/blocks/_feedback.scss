@@ -1,0 +1,25 @@
+.feedback {
+  padding-bottom: 180px;
+  @include desktop {
+    padding-bottom: 90px;
+  }
+  &__form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    @include desktop {
+      grid-template-columns: 1fr;
+    }
+  }
+  &__title {
+    margin-bottom: 38px;
+    @include desktop {
+      margin-bottom: 19px;
+    }
+  }
+}
+.some {
+  padding-bottom: 49px;
+}

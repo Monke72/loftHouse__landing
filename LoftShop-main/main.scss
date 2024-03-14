@@ -1,0 +1,9 @@
+//Base
+@import "./scss/base/reset", "./scss/base/vars", "./scss/base/base",
+  "./scss/base/mixins", "./scss/base/media";
+
+//Blocks
+@import "./scss/blocks/header", "./scss/blocks/benefits",
+  "./scss/blocks/appartmets", "./scss/blocks/cta", "./scss/blocks/video",
+  "./scss/blocks/map", "./scss/blocks/feedback", "./scss/blocks/footer",
+  "./scss/blocks/yandex-map";
